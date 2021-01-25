@@ -18,5 +18,44 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XmilsSDKDo/Classes/**/*"
+  "vendored_frameworks": "XmilsSDKDo/Classes/*.framework",
+  "resources": "XmilsSDKDo/Assets/*.bundle",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS[sdk=iphonesimulator*]": ""
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~>4.0.1"
+    ],
+    "Masonry": [
+
+    ],
+    "UICountingLabel": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "XBExpandViews": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJExtension": [
+      "~>3.1.0"
+    ],
+    "WechatOpenSDK": [
+      "1.8.7.1"
+    ],
+    "Bytedance-UnionAD": [
+      "3.3.6.1"
+    ],
+    "GDTMobSDK": [
+      "4.12.3"
+    ]
+  }
 }

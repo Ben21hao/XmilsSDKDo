@@ -30,13 +30,30 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XmilsSDKDo/Classes/**/*'
+#  s.source_files = 'XmilsSDKDo/Classes/**/*'
+  s.vendored_frameworks = "XmilsSDKDo/Classes/*.framework"
   
   # s.resource_bundles = {
   #   'XmilsSDKDo' => ['XmilsSDKDo/Assets/*.png']
   # }
+  s.resource         = "XmilsSDKDo/Assets/*.bundle"
+  
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'AFNetworking', '~>4.0.1'
+  s.dependency 'Masonry'
+  s.dependency 'UICountingLabel'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'MJRefresh'
+  s.dependency 'XBExpandViews'
+  s.dependency 'SDWebImage'
+  s.dependency 'MJExtension', '~>3.1.0'
+  
+  s.dependency 'WechatOpenSDK', '1.8.7.1'
+  s.dependency 'Bytedance-UnionAD', '3.3.6.1'  # 穿山甲广告
+  s.dependency 'GDTMobSDK', '4.12.3'  # 广点通广告
 end
