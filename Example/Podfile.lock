@@ -1,5 +1,5 @@
 PODS:
-  - XmilsSDKDo (0.1.0)
+  - XmilsSDKDo (0.3.0)
 
 DEPENDENCIES:
   - XmilsSDKDo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XmilsSDKDo: 876609d2d570fe110423734363156f67faa84bda
+  XmilsSDKDo: e2055b87d17b052a583ea6ffeefb5ea3fc041863
 
 PODFILE CHECKSUM: 1f21794523950b41cd439f4c5a7e12ca102f362c
 

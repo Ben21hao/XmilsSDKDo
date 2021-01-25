@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1CD62E5D63692DDD91DFA852 /* Pods_XmilsSDKDo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XmilsSDKDo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31248409C94D1E1A0A8B2BED /* Pods-XmilsSDKDo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XmilsSDKDo_Tests.release.xcconfig"; path = "Target Support Files/Pods-XmilsSDKDo_Tests/Pods-XmilsSDKDo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4A1E507BE9138CE2E654DA69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4A1E507BE9138CE2E654DA69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XmilsSDKDo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmilsSDKDo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		7FAB0DEB2AAAD8A72E5729DA /* Pods-XmilsSDKDo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XmilsSDKDo_Example.debug.xcconfig"; path = "Target Support Files/Pods-XmilsSDKDo_Example/Pods-XmilsSDKDo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ED8DB2A192D7A8D8E4604D2 /* Pods_XmilsSDKDo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XmilsSDKDo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACAC338F238884CEC5CB5A03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DD8366AAF183449CC6631240 /* XmilsSDKDo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XmilsSDKDo.podspec; path = ../XmilsSDKDo.podspec; sourceTree = "<group>"; };
+		ACAC338F238884CEC5CB5A03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DD8366AAF183449CC6631240 /* XmilsSDKDo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XmilsSDKDo.podspec; path = ../XmilsSDKDo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				688F2DBD4483DA7A19BD7CF9 /* Pods-XmilsSDKDo_Tests.debug.xcconfig */,
 				31248409C94D1E1A0A8B2BED /* Pods-XmilsSDKDo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Ben21hao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 5EYX8LJGM4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 7FAB0DEB2AAAD8A72E5729DA /* Pods-XmilsSDKDo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EYX8LJGM4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XmilsSDKDo/XmilsSDKDo-Prefix.pch";
 				INFOPLIST_FILE = "XmilsSDKDo/XmilsSDKDo-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 7E2FAD8D47FE06198566079B /* Pods-XmilsSDKDo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5EYX8LJGM4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XmilsSDKDo/XmilsSDKDo-Prefix.pch";
 				INFOPLIST_FILE = "XmilsSDKDo/XmilsSDKDo-Info.plist";
