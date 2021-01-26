@@ -32,7 +32,7 @@ PODS:
     - XBExpandViews/XBGradientColorView (= 0.0.2)
   - XBExpandViews/XBExpandButton (0.0.2)
   - XBExpandViews/XBGradientColorView (0.0.2)
-  - XmilsSDKDo (0.3.0):
+  - XmilsSDKDo (0.4.0):
     - AFNetworking (~> 4.0.1)
     - Bytedance-UnionAD (= 3.3.6.1)
     - GDTMobSDK (= 4.12.3)
@@ -78,7 +78,7 @@ SPEC CHECKSUMS:
   UICountingLabel: faf890b505d96312e324a86718f031fafffb0ccb
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
   XBExpandViews: 5e97df2d66d23bf31644bb622371defeea278358
-  XmilsSDKDo: 108b30423a77019d259e9e2f534d7052c296b58e
+  XmilsSDKDo: 4467729fd55d30044ce76a035219fbd657d8778b
 
 PODFILE CHECKSUM: 1f21794523950b41cd439f4c5a7e12ca102f362c
 
