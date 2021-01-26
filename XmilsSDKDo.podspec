@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XmilsSDKDo'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of XmilsSDKDo.'
 
 # This description is used to generate tags and improve search results.
@@ -56,4 +56,6 @@ TODO: Add long description of the pod here.
   s.dependency 'WechatOpenSDK', '1.8.7.1'
   s.dependency 'Bytedance-UnionAD', '3.3.6.1'  # 穿山甲广告
   s.dependency 'GDTMobSDK', '4.12.3'  # 广点通广告
+  
+  
 end
