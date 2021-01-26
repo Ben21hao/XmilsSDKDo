@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XmilsSDKDo'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = 'A short description of XmilsSDKDo.'
 
 # This description is used to generate tags and improve search results.

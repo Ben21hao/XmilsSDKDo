@@ -1,6 +1,0 @@
-framework module XmilsSDKDo {
-  umbrella header "XmilsSDKDo-umbrella.h"
-
-  export *
-  module * { export * }
-}
